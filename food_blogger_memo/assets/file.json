@@ -1,0 +1,59 @@
+[
+    {
+        "chennai":[ 
+            {
+                "shopname":"kiridharan mess",
+                "address":"Guindy , chennai-32",
+                "cityname":"Chennai/guindy",
+                "dishes":[
+                    "dosa", "idly" , "rice"
+                ],
+                "favdish":"Dosa",
+                "rating": 3,
+                "visited":true
+        },
+        {
+            "shopname":"lalitha mess",
+            "address":"beach",
+            "cityname":"beach",
+            "dishes":[
+                 "noodles" , "rice"
+            ],
+            "favdish":"Dosa",
+            "rating": 3,
+            "visited":true
+        },
+        {
+        "shopname":"AK mess",
+        "address":"Guindy , chennai-32",
+        "cityname":"guindy",
+        "dishes":[],
+        "favdish":"Dosa",
+        "rating": null,
+        "visited":false
+        }
+    ],
+    "villupuram":[ 
+        {
+            "shopname":"k mess",
+            "address":"bustand opp",
+            "cityname":"nagar 4",
+            "dishes":[
+                "65", "egg rice" , "rice"
+            ],
+            "favdish":"65",
+            "rating": 4.5,
+            "visited":true
+    },
+    {
+        "shopname":"lalitha mess",
+        "address":"beach",
+        "cityname":"beach",
+        "dishes":[],
+        "favdish":"Dosa",
+        "rating": null,
+        "visited":false
+    }
+]
+    }
+]
