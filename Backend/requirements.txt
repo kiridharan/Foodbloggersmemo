@@ -1,7 +1,7 @@
 // install django at any version
 absl-py==0.11.0
 django-ratings==0.3.7
-djangorestframework==3.11.0
+djangorestframework>=3.11.2
 gunicorn==20.0.4
 pip-tools==5.5.0
 pip-upgrade-tool==0.4.5
