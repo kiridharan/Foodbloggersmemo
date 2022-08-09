@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class ShopeDetails(models.Model):
+    key = models.IntegerField(primary_key=True , auto_created=True , blank=True)
     city_name = models.CharField(max_length=100)
     shop_name = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
@@ -13,3 +14,6 @@ class ShopeDetails(models.Model):
     def __str__(self):
         return '{} {} {} {} {} {} {}'.format(self.city_name , self.shop_name , self.location ,
         self.dishes, self.fav_dish , self.rating , self.visited)
+
+    class Meta:
+        ordering = ("shop_name", "city_name")
